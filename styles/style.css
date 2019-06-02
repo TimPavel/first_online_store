@@ -1,0 +1,607 @@
+body {
+	margin: 0;
+	background: #b1e1ef;
+	background: -webkit-linear-gradient(#b1e1ef 0%, #53cbf1 48%, #05abe0 100%);
+	background: -o-linear-gradient(#b1e1ef 0%, #53cbf1 48%, #05abe0 100%);
+	background: linear-gradient(#b1e1ef 0%, #53cbf1 48%, #05abe0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1e1ef', endColorstr='#05abe0',GradientType=0 );
+
+}
+
+a {
+	color: inherit;
+}
+
+.header {
+  	background-color: #abeafa;
+	height: 700px;
+}
+
+.headerInside {
+  	background-color: #abeafa;
+	height: inherit;
+	width: 1500px;
+	margin: 0 auto;	
+	position: relative;
+}
+
+.logo {
+	display: block;
+	width: 125px;
+	height: 111px;
+	background: url(../Images/logo.png);
+	position: absolute;
+	top: 24px;
+	left: 234px;
+}
+
+.blockWelcome {
+	width: 270px;
+ 	height: 300px;
+ 	background-color: #fff51f;
+ 	position: absolute;
+ 	top: 336px;
+ 	left: 165px;
+}
+
+.welcomeToSurf {
+	width: 199px;
+	height: 52px;
+	position: relative;
+	top: 82px;
+	right: 46px;
+	bottom: 166px;
+	left: 25px;
+	color: #333333;
+	font-family: Raleway bold, sans-serif;
+	font-size-adjust:0.5;
+  	font-size: 30px;	
+	font-weight: bold;
+	line-height: 1;
+}
+
+.textUnderWelcome {
+	width: 218px;
+	height: 60px;
+	position: absolute;
+	bottom: 82px;
+	left: 22px;
+	font-family: Raleway bold, sans-serif;
+
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	line-height: 0.78;
+ 	color: #333333;
+}
+
+.social {
+	width: 140px;
+	height: 20px;
+	position: absolute;
+	top: 50px;
+	right: 229px;
+	left: 1150px;
+}
+
+.social a {
+	color: #f8f8f8;
+	margin-right: 12px;
+}
+
+a:last-of-type {
+	margin-right: 0;
+}
+
+.blockJpFunride {
+	width: 313px;
+	height: 280px;
+	position: absolute;
+	top: 243px;
+	right: 274px;
+	font-family: Raleway, sans-serif;
+  	font-size: 18px;
+  	line-height: 1.33;
+  	color: #fff51f;
+}
+
+.blockJpFunride span {
+	display: block;
+	font-size: 48px;
+  	font-weight: 800;
+  	line-height: 0.71;
+}
+
+.buttonBuy {
+	width: 124px;
+	height: 49px;
+	background-color: #fff51f;
+	font-family: Raleway, sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	color: #000000;
+	margin-top: 62px;	
+}
+
+.buttonBuy a:hover {
+	background-color: #000;
+	color: white;
+}
+
+.buttonBuy a:visited:hover { 
+	color:white; 
+}
+
+.buttonBuy a {
+	display: block;
+	width: inherit;
+	height: inherit;
+	text-decoration: none;
+	line-height: 49px;
+	text-align: center;
+}
+
+.content {
+	margin-top: -20px;
+	width: 100%;
+	float: left;
+	
+}
+
+.contentInside {
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+.mainMenu {
+	width: 270px;
+	height: 490px;
+	background-color: #26d2fc;
+	float: left;
+}
+
+.mainMenu a {
+	display: block;
+	height: 43px;
+	line-height: 43px;
+	padding-left: 40px;
+	font-family: Roboto bold, sans-serif;
+ 	font-size: 14px;
+ 	font-weight: 900;
+ 	line-height: 2.57;
+ 	color: #000000;
+ 	text-decoration: none;
+}
+
+.mainMenu a:first-child {
+	height: 60px;
+	background-color: #000000;
+	color: #fff;
+	line-height: 60px;
+}
+
+
+.mainMenu a:hover {
+  	color: #ffffff;
+  	background-color: #000000;
+
+}
+
+.nowIsOpen {
+	float: left;
+	margin-top: 30px;
+	width: 270px;
+ 	height: 300px;
+  	background-color: #e0e0e0;
+}
+
+.nowIsOpen div {
+	width: 109px;
+  	height: 98px;
+   	font-family: Raleway heavy, sans-serif;
+  	font-size: 36px;
+  	font-weight: 900;
+  	color: #333333;
+  	text-transform: uppercase;
+  	position: relative;
+  	top: 129px;
+  	left: 142px;
+}
+
+.contentRight {
+	width: 870px;
+	height: auto;
+	float: right;
+}
+
+.captionProducts {
+	height: 70px;
+	width: 868px;
+	background-color: #f8f8f8;	
+	font-family: Roboto Black Italic, sans-serif;
+	font-size: 22px;
+	font-weight: 900;
+	font-style: italic;
+	color: #707070;	
+	text-transform: uppercase;
+	line-height: 70px;
+	padding-left: 25px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+.blockProducts {
+	width: 870px;
+	height: auto;
+	float: right;
+}
+
+.itemsNewProducts {
+	width: 270px;
+ 	height: 320px;
+ 	background-color: #ffffff;
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 29px;
+	overflow: hidden;
+	position: relative;
+}
+
+.itemsNewProducts:nth-of-type(3n) {
+	margin-right: 1px;
+} 
+
+.imageNewProducts {
+	width: 250px;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.cornerNew {
+	background: url(../Images/new-corner.png) no-repeat;
+	width: 46px;
+	height: 46px;
+	font-family: Roboto Regular, sans-serif;
+ 	font-size: 9px;
+ 	padding: 10px 0 0 22px;
+ 	box-sizing: border-box;
+ 	color: #ffffff;
+ 	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.cornerHot {
+	background: url(../Images/hot-corner.png) no-repeat;
+	width: 46px;
+	height: 46px;
+	font-family: Roboto Regular, sans-serif;
+ 	font-size: 9px;
+ 	padding: 10px 0 0 22px;
+ 	box-sizing: border-box;
+ 	color: #000;
+ 	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.newProductsDescription {
+	width: 155px;
+	float: left;
+	font-family: Roboto Black Italic,sans-serif;
+  	font-size: 14px;
+  	font-weight: 900;
+  	line-height: 1.29;
+  	color: #333333;
+  	padding-left: 10px;
+ 	box-sizing: border-box;
+ 	max-height: 2.4em;
+ 	overflow: hidden;
+}
+
+.priceNewProductsWrap {
+	float: right;
+	font-family: Roboto Black Italic, sans-serif;
+  	font-weight: 900;
+  	font-style: italic;
+   	color: #333333;
+	text-align: right;
+	padding-right: 10px;
+ 	box-sizing: border-box;
+
+}
+
+.actualPrice {
+	font-size: 18px;
+}
+
+.oldPrice {
+	font-size: 14px;
+	color: #e24602;
+	text-decoration: line-through; 
+}
+
+.brands {
+	width: 1170px;
+	height: 160px;
+	clear: both;
+	background-color: #fff;	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.instagramWrap {
+	width: 100%;
+	height: 350px;
+	background-color: #eaeaea;
+	float: left;
+}
+
+.instaFeed {
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+	font-family: Roboto Black Italic, sans-serif;
+	font-size: 18px;
+}
+
+.instaFeed i {
+	font-weight: bold;
+	font-size: 32px;
+	position: relative;
+	top: 5px;
+}
+
+.instaFeed span {
+	font-size: 22px;
+}
+
+.instaFeedImages {
+	margin-top: 29px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.instaFeedImages img {
+	border: 5px solid white;
+}
+
+.socialBlock {
+	width: 1170px;
+	height: 150px;
+}
+
+.socialBlock a {
+	display: block;
+}
+
+.socialBlock a:visited {
+	color:#fff;
+}
+
+.facebook, .twitter, .pint {
+	width: 390px;
+	height: 150px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	line-height: 150px;
+	font-size: 62px;
+}
+
+.facebook {
+	background-color: #3b5997;
+}
+
+.twitter {
+	background-color: #3fccfd;
+}
+
+.pint {
+	background-color: #cb2027;
+}
+
+.footer {
+	height: 351px;
+	background-color: #373737;
+	clear: both;
+	margin: 0 auto;
+	position: relative;
+}
+
+.footerInside {
+	width: 1170px;
+	height: 301px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.category, .ourContact, .ourSupport {
+	height: 170px;
+	width: 130px;
+ 	color: #fff;
+}
+
+.newsletter {
+	height: 170px;
+	width: 256px;
+ 	color: #fff;
+}
+
+.aboutUs {
+	height: 170px;
+	width: 200px;
+ 	color: #fff;
+}
+
+.categoryCaption, .ourContactCaption, .ourSupportCaption,
+.newsletterCaption, .aboutUsCaption {
+	font-family: Raleway ExtraBold, sans-serif;
+	font-size: 18px;
+ 	font-weight: 800;
+}
+
+.categoryList, 
+.ourContactList, 
+.ourSupportList {
+	position: absolute;
+	top: 120px;
+	font-family: Roboto Regular, sans-serif;
+  	font-size: 12px;
+ 	font-weight: normal;
+ 	font-style: normal;
+  	font-stretch: normal;
+ 	line-height: 1.5;
+}
+
+.categoryList a, 
+.ourContactList a, 
+.ourSupportList a {
+	text-decoration: none;
+}
+
+.categoryList a:visited, 
+.ourContactList a:visited, 
+.ourSupportList a:visited {
+	color: #fff;
+}
+
+.newsletterList, 
+.aboutUsList {
+	font-family: Roboto Regular, sans-serif;
+	font-size: 12px;
+  	color: #f8f8f8;
+  	margin-top: 8px;
+  	margin-bottom: 20px;
+}
+
+.aboutUsList {
+	width: 232px;
+	height: 85px;
+	line-height: 1;
+}
+
+.inputEmail {
+	width: 150px;
+	opacity: 0.45;
+  	background-color: #fff51f;
+  	font-family: Roboto Bold, sans-serif;
+  	font-size: 12px;
+  	font-weight: bold;
+  	line-height: 1.75;
+   	color: rgba(51, 51, 51, 0.45);
+}
+
+.buttonSubmit {
+	background-color: #000;
+	font-family: Roboto Regular, sans-serif;
+ 	font-size: 12px;
+ 	line-height: 1.75;
+ 	color: #ffffff;
+}
+
+.paymentsMethod {
+	height: 22px;
+	margin-top: 35px; 
+}
+
+.paymentsMethod img {
+	width: 35px;
+	margin-right: 5px;
+	padding: 0;
+}
+
+.paymentsMethod img:nth-child(6) {
+	margin-right: 0;
+}
+
+.aboutUsContacts {
+	font-family: Roboto Regular, sans-serif;
+  	font-size: 14px;
+  	line-height: 1.5;
+  	margin-top: -10px;
+}
+
+.aboutUsContacts span {
+	color: #faef03;
+}
+
+.footerBottom {
+	width: 1170px;
+	height: 50px;
+	background-color: #373737;
+	margin: 0 auto;
+	line-height: 50px;
+	font-family: Roboto, sans-serif;
+  	font-size: 12px;
+	color: #dad9d9;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.footerCopyright {
+	line-height: 50px;
+	font-family: Roboto Regular, sans-serif;
+  	font-size: 12px;
+	color: #dad9d9;
+	padding-left: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.footerSocial {
+	float: right;
+	color: #fff;
+	font-size: 12px;
+}
+
+.footerSocial a {
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+.footerSocial a:visited {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
